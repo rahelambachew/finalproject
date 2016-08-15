@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head lang ="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel ="stylesheet" href="stylesheet2.css">
+        <title>Comments</title>
+        
+    
+    </head>
+    <body>
+        <ul class = "menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About </a>
+            <li><a href="comments.html">Comments </a>
+            <li><a href="signin.html"> Sign In</a></li>
+        </ul>
+        <? include("formcode.php"); ?>
+        <header>
+            <h1>Comments</h1>
+        </header>
+        <form method='post'>
+          <font>Name:</font> <input type='text' name='name' id='name' /><br />
+
+
+
+          <font>Comments:</font><br />
+          <textarea name='comment' id='comment'></textarea><br />
+
+          <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+          <input type='submit' value='Submit' />  
+        </form>
+    </body>
+</html>        
