@@ -25,6 +25,7 @@ li a {
 
 li a:hover {
     background-color: #237e8b;
+    text-decoration: none;
 }
 
 p {
