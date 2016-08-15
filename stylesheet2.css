@@ -2,7 +2,9 @@
     font-family: Luna;
     src: url("Luna.ttf");
 }
-
+body {
+    margin:0px;
+}
 ul.menu {
     list-style-type: none;
     margin: 0;
