@@ -11,6 +11,7 @@
         <!-- Latest compiled JavaScript -->
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel ="stylesheet" href="stylesheet2.css">
+        <link rel ="stylesheet" href="comments.css">
         <title>Comments</title>
         
     
@@ -23,19 +24,23 @@
             <li><a href="signin.html"> Sign In</a></li>
         </ul>
         <header>
-            <h1>Comments</h1>
+            <h1><u><center>Comments</center></u></h1>
         </header>
-        <form method='post'>
-          <font>Name:</font> <input type='text' name='name' id='name' /><br />
+        <div class="jumbotron">
+            <div class="container">
+                <form method='post'>
+                  <font>Name:</font> <input type='text' name='name' id='name' /><br />
 
 
 
-          <font>Comments:</font><br />
-          <textarea name='comment' id='comment'></textarea><br />
+                  <font>Comments:</font><br />
+                  <textarea name='comment' id='comment'></textarea><br />
 
-          <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+                  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
 
-          <input type='submit' value='Submit' />  
-        </form>
+                  <input type='submit' value='Submit' />  
+                </form>
+            </div>
+        </div>
     </body>
 </html>        
