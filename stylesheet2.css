@@ -4,6 +4,7 @@
 }
 body {
     margin:0px;
+
 }
 ul.menu {
     list-style-type: none;
@@ -27,6 +28,7 @@ li a {
 
 li a:hover {
     background-color: #237e8b;
+    text-decoration: none;
 }
 
 p {
