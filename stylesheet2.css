@@ -4,6 +4,8 @@
 }
 body {
     margin:0px;
+    background-repeat: none;
+    background-size: 100%;
 }
 ul.menu {
     list-style-type: none;
