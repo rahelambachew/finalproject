@@ -4,6 +4,9 @@
 }
 body {
     margin:0px;
+    background-repeat: none;
+    background-image: 100%
+    
 
 }
 ul.menu {
@@ -54,7 +57,7 @@ ol {
     color : #000000;
 }
 
-div.row {
+div.math {
     color: #000000;
     font-family: Arial, Helvetica, serif;
 }
