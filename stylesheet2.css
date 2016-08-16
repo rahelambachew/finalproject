@@ -37,12 +37,10 @@ p {
     color : #000000;
     font-family: Arial, Helvetica, serif;
     text-indent: 50px;
-    font-size: 30px
+    font-size: 25px
 }
 
-
-
-h1, 2 {
+h1, h2 {
     color: #000000;
     font-family: Luna;
 }
