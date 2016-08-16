@@ -14,20 +14,43 @@
             <!-- Latest compiled JavaScript -->
             <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <link rel ="stylesheet" href="stylesheet2.css">
+            <style>
+            .mySlides {display:none;}
+            </style>
         </head>
          <body>
+            
             <ul class = "menu">
                 <li><a href="">Tips?</a></li>
-                <li><a href="">Resources</a>
-                <li><a href="">Files</a>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="">Files</a></li>
                 <li><a href="Calendar.html">Calendar</a></li>
             </ul>
             <h1> <center> <u> Calendar</u> </center> </h1>
             </br>
             <div class= "jumbotron">
                 <div class= "container">
-                        <center> <p> Put calendar here
-                         </p></center>
+                        <center><div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="Message1.jpg" width="250" height="150" style="width:100%">
+  <img class="mySlides" src="Message2.jpg" width="250" height="150" style="width:100%">
+  <img class="mySlides" src="Message3.jpg" width="250" height="150" style="width:100%">
+</div></center>
+                         <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
                        
                 </div>
             </div>
