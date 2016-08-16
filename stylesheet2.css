@@ -39,11 +39,15 @@ p {
     text-indent: 50px;
     font-size: 30px
 }
-h1 {
+
+
+}
+h1,h2 {
     color: #000000;
     font-family: Luna;
-}    
-h2, h3, h4, h5,h6 {
+} 
+
+h3, h4, h5,h6 {
     color: #000000;
     font-family: Arial, Helvetica, serif;
 }
