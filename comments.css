@@ -19,3 +19,6 @@ font {
 img.hidden {
     display:none;
 }
+.jumbotron {
+    margin:0px;
+}
