@@ -1,6 +1,7 @@
 @font-face{
-    font-family: Luna;
-    src: url("Luna.ttf");
+    font-family: dreamorphans;
+    src: url("dreamorphans.ttf");
+    font-size: 50px
 }
 body {
     margin:0px;
@@ -43,11 +44,16 @@ p {
     font-size: 25px
 }
 
-h1, h2 {
+h1 {
     color: #000000;
-    font-family: Luna;
+    font-family: dreamorphans;
+    font-size:50px
 }
- 
+h2 {
+    color: #000000;
+    font-family:dreamorphans;
+    font-size: 40px;
+}
 
 h3, h4, h5,h6 {
     color: #000000;
