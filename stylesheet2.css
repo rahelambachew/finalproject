@@ -1,6 +1,6 @@
 @font-face{
-    font-family: dreamorphan;
-    src: url("dreamorphan.ttf");
+    font-family: dreamorphans;
+    src: url("dreamorphans.ttf");
 }
 body {
     margin:0px;
@@ -35,7 +35,7 @@ li a:hover {
     text-decoration: none;
 }
 
-p {
+p2 {
     text-align: left;
     color : #000000;
     font-family: Arial, Helvetica, serif;
@@ -45,12 +45,12 @@ p {
 
 h1 {
     color: #000000;
-    font-family: dreamorphan;
+    font-family: dreamorphans;
     font-size: 50px
 }
 h2 {
     color: #000000;
-    font-family:dreamorphan;
+    font-family:dreamorphans;
     font-siz: 35px;
 }
 
