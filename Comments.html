@@ -14,18 +14,34 @@
         <link rel ="stylesheet" href="stylesheet2.css">
         <link rel ="stylesheet" href="comments.css">
         <link rel="icon" href="Logo.png">
+        <link rel ="stylesheet" href="navbar.css">
         <script src="loggout.js"></script>
         <title>Comments</title>
         
     
     </head>
     <body>
-        <ul class = "menu">
-            <li><a href="FBlogin.html">Sign In</a></li> 
-            <li><a href="Comments.html">Comments</a>
-            <li><a href="About.html">About Us </a>
-            <li><a href="index.html"> Home </a></li>
-        </ul>
+         <nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#">Studentivity</a>
+                </div>
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="index2.html">Home</a></li>
+                  <li><a href="About.html">About Us</a></li>
+                  
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Productivity<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="Calendar.html">Calendar &nbsp &nbsp &nbsp </a></li>
+                      <li><a href="resourcemap.html">Study Spots &nbsp &nbsp &nbsp </a></li>
+                      <li><a href="resources.html">Resources &nbsp &nbsp &nbsp </a></li>
+                      <li><a href="Comments.html">Comments &nbsp &nbsp &nbsp </a></li>
+                    </ul>
+                  </li>
+                  <li><a href="FBlogout.html">Logout</a></li>
+                  </ul>
+              </div>
+            </nav>
         <header>
             <center><h1><u> Comments </u></h1></center>
         </header>
