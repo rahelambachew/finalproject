@@ -69,9 +69,11 @@ ol {
 div.math {
     color: #000000;
     font-family: Arial, Helvetica, serif;
-    color: #0E494E
+    color: #0E494E;
 }
 .jumbotron {
     margin-left: 3em;
     margin-right: 3em;
+    background-color:rgba(192,192,192,0.7);
+    
 }
